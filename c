@@ -1,3 +1,1 @@
-mkdir $env:UserProfile\Desktop\blah
-echo bip >> $env:UserProfile\Desktop\blah\bip.txt
-notepad $env:UserProfile\Desktop\blah\bip.txt
+start-process https://www.youtube.com/watch?v=dQw4w9WgXcQ
