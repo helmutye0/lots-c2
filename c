@@ -1,1 +1,3 @@
-start-process https://www.youtube.com/watch?v=dQw4w9WgXcQ
+mkdir $env:UserProfile\Desktop\blah
+echo boop >> $env:UserProfile\Desktop\blah\boop.txt
+notepad $env:UserProfile\Desktop\blah\boop.txt
