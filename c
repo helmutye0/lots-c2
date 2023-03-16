@@ -1,3 +1,1 @@
-mkdir $env:UserProfile\Desktop\blah
-echo bip >> $env:UserProfile\Desktop\blah\bip.txt
-notepad $env:UserProfile\Desktop\blah\bip.txt
+start-process https://en.wikipedia.org/wiki/6th_Battalion,_Royal_Warwickshire_Regiment
