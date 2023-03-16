@@ -1,1 +1,7 @@
-start-process https://en.wikipedia.org/wiki/6th_Battalion,_Royal_Warwickshire_Regiment
+$recon=hostname
+$recon+="|"
+$recon+=ipconfig
+$recon+="|"
+$recon+=whoami
+$recon >> $env:UserProfile\Desktop\recon.txt
+notepad $env:UserProfile\Desktop\recon.txt
